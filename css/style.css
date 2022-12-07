@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to right top, #480f2f, #561846, #5f2562, #613580, #5947a0, #4550a5, #2c58a8, #005fa8, #00588a, #004d68, #004048, #153230);
+    height: 100vh;
+}
+.main {
+    width: 500px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+    border-radius: 50px 0 50px 0;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px #fff;
+}
+
+.heading {
+    text-align: center;
+    color: #27ae60;
+}
+.heading h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px rgb(146, 23, 23);
+}
+
+.user_msg {
+    color: red;
+}
+
+.main-body button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(61, 22, 236);
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.eye-button {
+    position: relative;
+}
+
+.eye-button button{
+    color: #fff;
+    font-size: 12px;
+    background-color: transparent;
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    color: black;
+}
